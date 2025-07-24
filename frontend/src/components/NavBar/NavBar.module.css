@@ -1,0 +1,34 @@
+.navbar {
+  background-color: transparent;
+  color: whitesmoke;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerLogo {
+  display: flex;
+  align-items: center;
+  margin: 0 4vw;
+  gap: 0.8rem;
+}
+.containerLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.link {
+  display: flex;
+  gap: 0.3rem;
+  transition: all 0.5s;
+}
+.link:hover, .link:focus{
+  transform: scale(1.05);
+}
+.containerProfile {
+  margin: 0 4vw;
+}
+.contentDropdown {
+  background-color: rgb(var(--color-background-secondary));
+}
