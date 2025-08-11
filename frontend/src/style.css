@@ -1,17 +1,22 @@
 @import "tailwindcss";
 
 @layer base {
-  /* @font-face {
-    font-family: "Louis George Café";
-    src: url("/fonts/LouisGeorgeCafe.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  } */
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
 
   :root {
-    --color-primary: 70, 135, 243;
+    --color-primary: 200, 200, 200;
     --color-secondary: 23, 106, 244;
-    --color-background: 3 3 3;
+    --color-background: 30, 30, 30;
     --color-background-secondary: 217 217 217;
   }
   body {
